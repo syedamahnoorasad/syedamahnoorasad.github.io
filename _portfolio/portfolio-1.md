@@ -15,8 +15,16 @@ images:
 This project explores participatory design of accessibility dashboards for civic organizations.  
 Here are some screenshots:
 
-{% for img in page.images %}
-  <img src="{{ img }}" alt="Dashboard image" style="max-width:45%; margin:5px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.2);" />
-{% endfor %}
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px;">
+  {% for img in page.images %}
+    <a href="{{ img }}" target="_blank">
+      <img src="{{ img }}" alt="Dashboard image"
+           style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);" />
+    </a>
+  {% endfor %}
+</div>
+
+
 
 Through interviews and participatory design workshops, we developed dashboard prototypes that organize fragmented data and integrate Responsible AI to support accountability and inclusivity.
