@@ -1,5 +1,7 @@
 ---
 layout: archive
+---
+layout: archive
 title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
@@ -7,16 +9,18 @@ author_profile: true
 
 {% include base_path %}
 
-<div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:flex-start;">
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
   {% for post in site.portfolio %}
-    <div style="flex: 0 0 calc(33% - 20px); box-sizing:border-box; background:#fff; border:1px solid #ddd; border-radius:10px; padding:15px; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
-      <a href="{{ post.url | relative_url }}" style="text-decoration:none; color:inherit;">
-        {% if post.image %}
-          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width:100%; height:auto; border-radius:8px; margin-bottom:10px;">
-        {% endif %}
-        <h3 style="margin-top:0;">{{ post.title }}</h3>
-      </a>
-      <p>{{ post.excerpt | markdownify }}</p>
+    <div style="background:#fff; padding:15px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+      {% if post.images %}
+        <div>
+          {% for img in post.images %}
+            <img src="{{ img }}" alt="{{ post.title }} image" style="max-width:100%; margin:5px 0; border-radius:6px;" />
+          {% endfor %}
+        </div>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
