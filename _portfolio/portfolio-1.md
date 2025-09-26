@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Accessibility Dashboard Design"
 excerpt: "Participatory design of accessibility dashboards for civic organizations."
 collection: portfolio
@@ -27,4 +27,4 @@ Here are some screenshots:
 
 
 
-Through interviews and participatory design workshops, we developed dashboard prototypes that organize fragmented data and integrate Responsible AI to support accountability and inclusivity.
+Through interviews and participatory design workshops, we developed dashboard prototypes that organize fragmented data and integrate Responsible AI to support accountability and inclusivity. -->
