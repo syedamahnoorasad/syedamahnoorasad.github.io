@@ -5,13 +5,30 @@ permalink: /projects/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px;">
+  {% assign sorted_projects = site.projects | sort: "date" | reverse %}
+  {% for post in sorted_projects %}
+    <div style="background:#fff; padding:15px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
 
-{% endif %}
+      {% if post.skills %}
+        <p style="font-size:0.9rem; color:#555;">
+          <strong>Skills:</strong>
+          {{ post.skills | join: ", " }}
+        </p>
+      {% endif %}
 
-{% for post in site.projects reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
+      {% if post.images %}
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 5px;">
+          {% for img in post.images limit:4 %}
+            <img src="{{ img }}" alt="{{ post.title }} image"
+                 style="width:100%; aspect-ratio: 1/1; object-fit:cover; border-radius:6px;" />
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

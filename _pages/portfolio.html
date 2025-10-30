@@ -14,6 +14,13 @@ author_profile: true
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p>{{ post.excerpt }}</p>
 
+      {% if post.skills %}
+        <p style="font-size:0.9rem; color:#555;">
+          <strong>Skills:</strong>
+          {{ post.skills | join: ", " }}
+        </p>
+      {% endif %}
+
       {% if post.images %}
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 5px;">
           {% for img in post.images limit:4 %}
@@ -25,4 +32,3 @@ author_profile: true
     </div>
   {% endfor %}
 </div>
-
