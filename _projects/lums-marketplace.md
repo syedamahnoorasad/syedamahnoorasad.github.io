@@ -29,7 +29,7 @@ video_demo: "https://drive.google.com/file/d/1VBFIQqfnSQzzEV0P-TS8tMPyZxADenDc/v
 
 ## Overview
 
-LUMS Marketplace is a group project that provides a verified, campus-only space for students to buy, sell, and donate second-hand items. We set out to replace ad-hoc resale chats with a structured platform that keeps transactions transparent and easy to manage.
+LUMS Marketplace is a five-person group project that provides a verified, campus-only space for students to buy, sell, and donate second-hand items. We set out to replace ad-hoc resale chats with a structured platform that keeps transactions transparent and easy to manage.
 
 <div style="margin:24px 0;">
   <a href="{{ page.video_demo }}" class="btn btn--primary" target="_blank" rel="noopener">
@@ -45,6 +45,7 @@ LUMS Marketplace is a group project that provides a verified, campus-only space 
 
 ## My Role
 
+- Collaborated within a five-member team to align requirements, sprint goals, and testing feedback.
 - Co-authored the requirements specification, translating survey findings into use cases and acceptance criteria for the team.
 - Built core React + TypeScript interfaces including the filtered listing view, saved items page, and responsive layout tweaks.
 - Implemented and tested Express/MongoDB endpoints for listings, messaging, and moderation so buyer-seller flows stayed reliable.
