@@ -3,12 +3,16 @@ title: "SeaTulane"
 excerpt: "Seat-booking prototype that helps Tulane students check capacity, reserve seats, and manage study plans."
 collection: portfolio
 images:
-  - /images/portfolio/seatulane/seatulane-banner.jpeg
   - /images/portfolio/seatulane/seatulane-home.png
+  - /images/portfolio/seatulane/seatulane-capacity.png
+  - /images/portfolio/seatulane/seatulane-history.png
+  - /images/portfolio/seatulane/seatulane-settings.png
 permalink: /portfolio/seatulane/
 role: "UX Researcher & Product Designer"
 skills:
   - UX Research
+  - UI Research
+  - Interviews
   - Interaction Design
   - Service Design
   - Figma

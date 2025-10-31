@@ -9,7 +9,12 @@ role: "Lead UX Researcher & Interaction Designer"
 permalink: /projects/taleemai/
 images:
   - /images/portfolio/taleemai/banner.jpeg
-skills:
+  - /images/portfolio/taleemai/taleemai-home.jpeg
+  - /images/portfolio/taleemai/taleemai-buddy-connect.jpeg
+  - /images/portfolio/taleemai/taleemai-scholarships.jpeg
+  - /images/portfolio/taleemai/taleemai-deadlines.jpeg
+  - /images/portfolio/taleemai/taleemai-community.jpeg
+  - /images/portfolio/taleemai/taleemai-bot.jpeg
 skills:
   - UX Research
   - Interaction Design

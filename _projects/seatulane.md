@@ -6,13 +6,14 @@ date: 2024-12-02
 permalink: /projects/seatulane/
 banner: /images/portfolio/seatulane/seatulane-banner.jpeg
 images:
-  - /images/portfolio/seatulane/seatulane-banner.jpeg
   - /images/portfolio/seatulane/seatulane-home.png
   - /images/portfolio/seatulane/seatulane-capacity.png
   - /images/portfolio/seatulane/seatulane-history.png
   - /images/portfolio/seatulane/seatulane-settings.png
 skills:
   - UX Research
+  - UI Research
+  - Interviews
   - Interaction Design
   - Service Design
   - Figma

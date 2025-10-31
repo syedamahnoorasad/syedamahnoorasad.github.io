@@ -35,27 +35,27 @@ TaleemAI is a high-fidelity mobile prototype designed to support Pakistani high-
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;">
   <figure style="margin:0;">
-    <img src="/images/portfolio/taleemai/homepage.jpeg" alt="High-fidelity home screen with deadlines and feature shortcuts" style="width:100%;border-radius:8px;" />
+    <img src="/images/portfolio/taleemai/taleemai-home.jpeg" alt="High-fidelity home screen with deadlines and feature shortcuts" style="width:100%;border-radius:8px;" />
     <figcaption>Home screen surfaces urgent deadlines and shortcuts to core tools.</figcaption>
   </figure>
   <figure style="margin:0;">
-    <img src="/images/portfolio/taleemai/university list.jpeg" alt="University discovery screen with filters" style="width:100%;border-radius:8px;" />
+    <img src="/images/portfolio/taleemai/taleemai-university-list.jpeg" alt="University discovery screen with filters" style="width:100%;border-radius:8px;" />
     <figcaption>University explorer consolidates program details, requirements, and alumni contacts.</figcaption>
   </figure>
   <figure style="margin:0;">
-    <img src="/images/portfolio/taleemai/university regions.jpeg" alt="Regional map showcasing universities across Pakistan" style="width:100%;border-radius:8px;" />
+    <img src="/images/portfolio/taleemai/taleemai-university-regions.jpeg" alt="Regional map showcasing universities across Pakistan" style="width:100%;border-radius:8px;" />
     <figcaption>Regional view helps students compare options beyond their immediate cities.</figcaption>
   </figure>
   <figure style="margin:0;">
-    <img src="/images/portfolio/taleemai/community.jpeg" alt="Community forum with highlighted buddy responses" style="width:100%;border-radius:8px;" />
+    <img src="/images/portfolio/taleemai/taleemai-community.jpeg" alt="Community forum with highlighted buddy responses" style="width:100%;border-radius:8px;" />
     <figcaption>Community threads elevate verified buddy guidance alongside peer advice.</figcaption>
   </figure>
   <figure style="margin:0;">
-    <img src="/images/portfolio/taleemai/taleem ai bot.jpeg" alt="Conversational bot screen" style="width:100%;border-radius:8px;" />
+    <img src="/images/portfolio/taleemai/taleemai-bot.jpeg" alt="Conversational bot screen" style="width:100%;border-radius:8px;" />
     <figcaption>TaleemAI bot offers quick tips and deadline nudges without replacing human mentors.</figcaption>
   </figure>
   <figure style="margin:0;">
-    <img src="/images/portfolio/taleemai/deadline list.jpeg" alt="Deadline tracker list" style="width:100%;border-radius:8px;" />
+    <img src="/images/portfolio/taleemai/taleemai-deadlines.jpeg" alt="Deadline tracker list" style="width:100%;border-radius:8px;" />
     <figcaption>Deadline tracker highlights urgent tasks so nothing slips during restricted phone hours.</figcaption>
   </figure>
 </div>
