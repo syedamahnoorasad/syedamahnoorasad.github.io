@@ -4,7 +4,7 @@ excerpt: "Seat-booking prototype that helps Tulane students check capacity, rese
 collection: portfolio
 images:
   - /images/portfolio/seatulane/seatulane-banner.jpeg
-  - /images/portfolio/seatulane/seatulane-1.png
+  - /images/portfolio/seatulane/seatulane-home.png
 permalink: /portfolio/seatulane/
 role: "UX Researcher & Product Designer"
 skills:

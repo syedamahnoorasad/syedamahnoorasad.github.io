@@ -25,24 +25,20 @@ SeaTulane is a collaborative seat-booking prototype that helps Tulane students l
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;">
   <figure style="margin:0;">
-    <img src="/images/portfolio/seatulane/seatulane-1.png" alt="SeaTulane home screen summarizing current bookings" style="width:100%;border-radius:8px;" />
+    <img src="/images/portfolio/seatulane/seatulane-home.png" alt="SeaTulane home screen summarizing current bookings" style="width:100%;border-radius:8px;" />
     <figcaption>Home dashboard surfaces upcoming reservations and quick links to core actions.</figcaption>
   </figure>
   <figure style="margin:0;">
-    <img src="/images/portfolio/seatulane/seatulane-2.png" alt="SeaTulane capacity overview with live counts" style="width:100%;border-radius:8px;" />
-    <figcaption>Capacity overview keeps floor-by-floor seat counts visible and easy to scan.</figcaption>
+    <img src="/images/portfolio/seatulane/seatulane-capacity.png" alt="SeaTulane capacity tracker highlighting available seats" style="width:100%;border-radius:8px;" />
+    <figcaption>Capacity tracker shows seat status by floor and prompts a reserve action for open spots.</figcaption>
   </figure>
   <figure style="margin:0;">
-    <img src="/images/portfolio/seatulane/seatulane-3.png" alt="Seat selection flow highlighting availability states" style="width:100%;border-radius:8px;" />
-    <figcaption>Capacity tracker alerts students when a selected seat is already taken and prompts a retry.</figcaption>
+    <img src="/images/portfolio/seatulane/seatulane-history.png" alt="SeaTulane booking history list" style="width:100%;border-radius:8px;" />
+    <figcaption>Booking history organizes current, previous, and favorite seats with inline management controls.</figcaption>
   </figure>
   <figure style="margin:0;">
-    <img src="/images/portfolio/seatulane/seatulane-4.png" alt="Manage bookings confirmation dialogue" style="width:100%;border-radius:8px;" />
-    <figcaption>Manage bookings view offers inline actions such as cancelling with confirmation safeguards.</figcaption>
-  </figure>
-  <figure style="margin:0;">
-    <img src="/images/portfolio/seatulane/seatulane-5.png" alt="Notification preference toggles" style="width:100%;border-radius:8px;" />
-    <figcaption>Notification settings let students opt into reminders for expiring holds and capacity changes.</figcaption>
+    <img src="/images/portfolio/seatulane/seatulane-settings.png" alt="SeaTulane notification settings toggles" style="width:100%;border-radius:8px;" />
+    <figcaption>Notification settings let students fine-tune reminders, seat alerts, and system behaviors.</figcaption>
   </figure>
 </div>
 

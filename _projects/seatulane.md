@@ -7,11 +7,10 @@ permalink: /projects/seatulane/
 banner: /images/portfolio/seatulane/seatulane-banner.jpeg
 images:
   - /images/portfolio/seatulane/seatulane-banner.jpeg
-  - /images/portfolio/seatulane/seatulane-1.png
-  - /images/portfolio/seatulane/seatulane-2.png
-  - /images/portfolio/seatulane/seatulane-3.png
-  - /images/portfolio/seatulane/seatulane-4.png
-  - /images/portfolio/seatulane/seatulane-5.png
+  - /images/portfolio/seatulane/seatulane-home.png
+  - /images/portfolio/seatulane/seatulane-capacity.png
+  - /images/portfolio/seatulane/seatulane-history.png
+  - /images/portfolio/seatulane/seatulane-settings.png
 skills:
   - UX Research
   - Interaction Design
